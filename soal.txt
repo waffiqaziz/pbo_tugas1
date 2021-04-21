@@ -1,0 +1,41 @@
+tugas 1 kelompok PBO
+1. buatlah package bidang2D dan package  ruang3D (package huruf kecil)	
+
+2. buatlah interface Bidang2D didalam package bidang2D (interface kapital awal)
+
+3. buatlah kelas Lingkaran yang implement ke interface bidang 2D, letakkan kelas Lingkaran dalam package bidang2D
+
+4. buatlah kelas Tabung, Kerucut, dan Bola sebagai subkelas dari superkelas lingkaran. Letakkan ketiga kelas tersebut dalam package ruang3D
+
+5. buatlah kelas KerucutTerpancung sebagai subkelas dari kelas kerucut, letakkan KerucutTerpancung berada didalam package ruang3d
+
+6. buatlah kelas Bola sebagai subkelas kelas Lingkaran, letakkan kelas Bola tersebut berada di package ruang3d.
+
+7. buatlah kelas JuringBola, TemberengBola, KeratanBola, CincinBola sebagai subkelas dari kelas bola, letakkan ke-4 kelas tersebut berada didalam package ruang3D.
+
+8. buatlah atribut jari-jari/r, panjang, lebar, tinggi, keliling, dan luas pada interface Bidang2D.
+
+9. buatlah methode hitungKeliling() dan hitungLuas() pada interface Bidang2D 
+
+10. buatlah atribut jarijari/r, keliling, luas pada kelas Lingkaran
+
+11. implementasikan method hitungKeliling() hitungLuas() pada kelas Lingkaran
+
+12. buatlah atribut tinggi pada kelas Tabung
+
+13. buatlah method hitungLuas() dan hitungVolume() di kelas Tabung
+
+14. buatlah atribut tinggi pada kelas Kerucut
+
+15. buatlah method hitungKeliling() dan hitungLuas() didalam kelas Kerucut
+
+16. buatlah atribut tambahan jika diperlukan untuk kelas JuringBola, TemberangBola, KeratanBola serta CincinBola. 
+
+17. buatlah method hitungLuas() dan hitungVolume() pada ke empat subkelas, dari kelas Bola tersebut.
+
+18. buatlah kelas utama yang berisi method main yang mengatur kerja sama kelas-kelas yang telah dibuat sehingga menjadi aplikasi geometri yang menerapkan konsep2 oop yang baik. Khususnya pada konsep bab 2, 3, dan 4. 
+
+jml anggota 2-4 orang
+presentasi dipilih yang excellent
+dikumpulkan ketika uts
+
