@@ -4,20 +4,23 @@
  * and open the template in the editor.
  */
 package ruang3D;
+import java.lang.Math;
+import bidang2D.Lingkaran;
 
 /**
  *
  * @author Waffiq Aziz
  */
-public class Tabung {
+public class Tabung extends Lingkaran{
   int tinggi;
-
+  float ltabung;
+  float vtabung;
   
-  void hitungLuas(){
-//    ???
+  public void hitungLuas(){
+    ltabung = (float)(2*lluas+(2*Math.PI*jarijari*tinggi));
   }
   
-  void hitungKeliling(){
-    //????
+  public void hitungvolume(){
+    vtabung = (float) (lluas*tinggi);
   }
 }

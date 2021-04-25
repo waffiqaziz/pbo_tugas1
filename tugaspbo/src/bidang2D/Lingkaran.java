@@ -10,9 +10,9 @@ package bidang2D;
  * @author Waffiq Aziz
  */
 public class Lingkaran implements Bidang2D{
-  int jarijari;
-  double lkeliling;
-  double lluas;
+  protected int jarijari;
+  protected double lkeliling;
+  protected double lluas;
   
   @Override
   public void hitungKeliling() {
@@ -23,5 +23,7 @@ public class Lingkaran implements Bidang2D{
   public void hitungLuas() {
     lluas  = Math.PI * r * r;
   }
-  
+  void display(){
+    System.out.println("MAS000KKKk");
+  }
 }

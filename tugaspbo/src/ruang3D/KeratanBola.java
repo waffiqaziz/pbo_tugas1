@@ -10,5 +10,7 @@ package ruang3D;
  * @author Waffiq Aziz
  */
 public class KeratanBola extends Bola{
-  
+    float lkeratanbola;
+    float vkeratanbola;
+    //ini harusnya ada 2 jari2 bidang atas sama bidang bawah.
 }

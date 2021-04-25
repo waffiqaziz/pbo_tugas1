@@ -10,5 +10,5 @@ package ruang3D;
  * @author Waffiq Aziz
  */
 public class CincinBola extends Bola{
-  
+    
 }
