@@ -14,11 +14,11 @@ public class JuringBola extends Bola{
     float ljuringbola;
     float vjuringbola;
     @Override
-    public void hitungLuas() {
-        super.hitungLuas();
-        ljuringbola = (float) ((luasbola)/(2*jarijari)*tinggi);
+    void hitungLuas() {
+        ljuringbola = (float) (2*Math.PI*jarijari*tinggi);
     }
     void hitungvolume(){
+        super.hitungLuas();
         vjuringbola = (float) (lluas*(2/3)*tinggi);
     }
 }

@@ -4,23 +4,21 @@
  * and open the template in the editor.
  */
 package ruang3D;
-import bidang2D.Lingkaran;
-import bidang2D.Bidang2D;
 /**
  *
  * @author Waffiq Aziz
  */
-public class Bola extends Lingkaran{
+public class Bola{
+    protected int jarijari;
+    protected double lkeliling;
+    protected double lluas;
     double luasbola;
     double kelilingbola;
-    @Override
-    public void hitungLuas() {
-        super.hitungLuas();
-        luasbola =  4*lluas;
+
+    void hitungLuas() {
+        luasbola =  4*(Math.PI*Math.pow(jarijari, 2));
     }
-    @Override
-    public void hitungKeliling() {
-        super.hitungKeliling();
-        kelilingbola = lkeliling * (2/3) *jarijari;
+    void hitungKeliling() {
+        kelilingbola = (4.0/3.0)*Math.PI*Math.pow(jarijari, 2);
     }
 }
