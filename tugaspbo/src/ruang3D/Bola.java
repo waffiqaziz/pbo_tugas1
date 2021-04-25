@@ -21,6 +21,6 @@ public class Bola extends Lingkaran{
     @Override
     public void hitungKeliling() {
         super.hitungKeliling();
-        kelilingbola = lkeliling * (2/3) *jarijari;
+        kelilingbola = lkeliling * (2f/3) *jarijari;
     }
 }

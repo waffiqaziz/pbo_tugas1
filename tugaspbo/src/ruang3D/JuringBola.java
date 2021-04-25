@@ -19,6 +19,6 @@ public class JuringBola extends Bola{
         ljuringbola = (float) ((luasbola)/(2*jarijari)*tinggi);
     }
     void hitungvolume(){
-        vjuringbola = (float) (lluas*(2/3)*tinggi);
+        vjuringbola = (float) (lluas*(2f/3)*tinggi);
     }
 }
