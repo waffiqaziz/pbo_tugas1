@@ -19,11 +19,6 @@ public class Bola{
         luasbola =  4*(Math.PI*Math.pow(jarijari, 2));
     }
 
-    @Override
-    public void hitungKeliling() {
-        super.hitungKeliling();
-        kelilingbola = lkeliling * (2f/3) *jarijari;
-
     void hitungKeliling() {
         kelilingbola = (4.0/3.0)*Math.PI*Math.pow(jarijari, 2);
     }
