@@ -21,6 +21,9 @@ public class Kerucut{
     }
 
     void hitungKeliling(){
-        keliling = (float) (Math.PI*jarijari*(jarijari+sisimiring));
+        keliling = (float) (Math.PI*jarijari*(jarijari+sisimiring));//Luas Permukaan?
+    }
+    void hitungLuas(){
+        luas = (float) ((1.0/3.0)*Math.PI *jarijari *tinggi); //volume?
     }
 }
