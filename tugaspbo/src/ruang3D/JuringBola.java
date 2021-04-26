@@ -10,5 +10,17 @@ package ruang3D;
  * @author Waffiq Aziz
  */
 public class JuringBola extends Bola{
-  
+    float tinggi;
+    float ljuringbola;
+    float vjuringbola;
+    @Override
+    void hitungLuas() {
+        ljuringbola = (float) (2*Math.PI*jarijari*tinggi);
+    }
+    void hitungvolume(){
+        vjuringbola = (float) (lluas*(2f/3)*tinggi);
+
+        super.hitungLuas();
+        vjuringbola = (float) (lluas*(2/3)*tinggi);
+    }
 }

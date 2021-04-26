@@ -16,8 +16,8 @@ public interface Bidang2D {
   public static final int tinggi = 0;
   public static final double keliling = 0;
   public static final double luas = 0;
+  //Final tu buat variabel tetap contoh p = 3,14...
   
- 
-  void hitungKeliling(); 
-  void hitungLuas(); 
+  public void hitungKeliling(); 
+  public void hitungLuas(); 
 }
