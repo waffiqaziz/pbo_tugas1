@@ -4,20 +4,21 @@
  * and open the template in the editor.
  */
 package bidang2D;
+/*
+Anggota Kelompok:
+    Waffiq Aziz (123190070)
+    Muhammad Khadafie Satya Sudarto (123190072)
+    Shean Michael Aqshafa Ditamaputra (123190096)
+*/
+public interface Bidang2D 
+{
+  public static final int r = 1;
+  public static final int panjang = 1;
+  public static final int lebar = 1;
+  public static final int tinggi = 1;
+  public static final double keliling = 1;
+  public static final double luas = 1;
 
-/**
- *
- * @author Waffiq Aziz
- */
-public interface Bidang2D {
-  public static final int r = 0;
-  public static final int panjang = 0;
-  public static final int lebar = 0;
-  public static final int tinggi = 0;
-  public static final double keliling = 0;
-  public static final double luas = 0;
-  //Final tu buat variabel tetap contoh p = 3,14...
-  
   public void hitungKeliling(); 
   public void hitungLuas(); 
 }
